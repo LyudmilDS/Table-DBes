@@ -14,5 +14,5 @@ int number_cols(std::string name);
 void showtables();
 void innerjoin(std::string, std::string);
 void addcolumn(std::string);
-void rename_table(std::string, std::string);
+
 #endif // !FUNCTIONS

@@ -79,10 +79,3 @@ int tip,check1 = File.tellg(), check2 = 0;
 	}
 	File.close();
 }
-
-
-void rename_table(std::string oldname, std::string newname)
-{
-	std::ifstream oldfile(oldname, std::ios::binary);
-	std::ifstream newfile(newname, std::ios::binary); 
-}

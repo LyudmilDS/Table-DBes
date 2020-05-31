@@ -1,11 +1,2 @@
-﻿  innerjoin.cpp
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(30,19): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(32,20): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(52,67): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(53,68): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(66,25): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(68,26): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(86,25): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(119,26): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
-E:\New папка\C++\project_oop\project_oop\innerjoin.cpp(123,24): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+﻿  project_oop.cpp
   project_oop.vcxproj -> E:\New папка\C++\project_oop\Debug\project_oop.exe

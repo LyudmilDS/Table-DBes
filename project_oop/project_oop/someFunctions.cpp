@@ -18,6 +18,26 @@ void showtables(std::vector<std::string>spisak)
 		std::cout << spisak[i];
 	}
 }
+void showtables()
+{
+	std::vector<std::string>spisak;
+	char ws;
+	std::string file_name;
+	std::ifstream katalog("catalog.bin", std::ios::binary);
+	if (!katalog)
+	{
+		std::cout << "Couldnt open the file!\n";
+	}
+	std::cout << "The files in the catalog are:\n";
+
+	while (katalog)
+	{
+		katalog.read((char*)&file_name, sizeof(file_name));
+		katalog.read((char*)&ws, sizeof(char));
+		std::cout << file_name << ws;
+	}
+	katalog.close();
+}
 
 
 void addcolumn(std::string name)
